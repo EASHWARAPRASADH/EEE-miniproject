@@ -29,7 +29,7 @@ app_port: 7860
 
 ## 💻 Local Setup Guide (Windows)
 
-Follow these steps to run the complete AI Studio environment on your Windows machine.
+Follow these steps to run the complete environment on your Windows machine.
 
 ### **1. Prerequisites**
 *   **Python 3.10+**: [Download Here](https://www.python.org/downloads/)
@@ -98,4 +98,4 @@ This project is configured for **Docker-based deployment** on Hugging Face Space
 ## ⚖️ License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-**Project maintained by EashCodeX & AI Studio.**
+**Project maintained by EashCodeX.**
