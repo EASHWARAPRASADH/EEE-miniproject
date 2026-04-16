@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STEGANO-X - Audio Steganography</title>
+  </head>
+  <body>
+    <div id="root">
+      <style>
+        .ai-loader-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          background: #020617;
+          color: #f8fafc;
+          font-family: sans-serif;
+        }
+        .ai-pulse {
+          width: 80px;
+          height: 80px;
+          background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+          border-radius: 50%;
+          animation: pulse 2s infinite ease-in-out;
+          box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+        }
+        .ai-text {
+          margin-top: 24px;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 700;
+          opacity: 0.8;
+          animation: glimmer 1.5s infinite alternate;
+        }
+        @keyframes pulse {
+          0% { transform: scale(0.8); opacity: 0.4; }
+          50% { transform: scale(1.2); opacity: 0.8; }
+          100% { transform: scale(0.8); opacity: 0.4; }
+        }
+        @keyframes glimmer {
+          from { opacity: 0.3; text-shadow: 0 0 5px #3b82f6; }
+          to { opacity: 0.9; text-shadow: 0 0 15px #3b82f6; }
+        }
+      </style>
+      <div class="ai-loader-container">
+        <div class="ai-pulse"></div>
+        <div class="ai-text">Initializing AI Core...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

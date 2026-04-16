@@ -1,0 +1,15 @@
+flask
+flask-cors
+numpy
+scipy
+librosa
+pillow
+soundfile
+zlib-ng
+gunicorn
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+piq
+cryptography
+matplotlib
+pandas

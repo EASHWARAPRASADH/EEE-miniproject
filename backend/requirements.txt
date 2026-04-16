@@ -1,0 +1,16 @@
+flask==3.0.0
+flask-cors==4.0.0
+numpy==1.26.4
+Pillow==10.2.0
+scipy==1.12.0
+scikit-learn==1.4.0
+pycryptodome==3.20.0
+soundfile==0.12.1
+librosa==0.10.1
+python-magic==0.4.27
+psutil==6.0.0
+# AI/ML dependencies (optional)
+torch==2.2.0
+torchvision==0.17.0
+image-quality==1.2.7
+piq==0.8.0

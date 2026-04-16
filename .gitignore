@@ -1,0 +1,25 @@
+# Environments
+venv/
+.env
+.venv
+env/
+# Dependencies
+node_modules/
+dist/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+# OS
+.DS_Store
+Thumbs.db
+# Project
+scratch/
+zip/
+*.wav
+*.mp3
+*.opus
+*.jpg
+*.png
+!test_img.png
+!test_audio.wav
