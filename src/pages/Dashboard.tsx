@@ -23,7 +23,7 @@ export default function Dashboard() {
 
   // Fetch real capacity and detection rate from backend
   useEffect(() => {
-    fetch('http://localhost:5001/api/models')
+    fetch('/api/models')
       .then(res => {
         const capacity = res.headers.get('X-Avg-Capacity');
         const detection = res.headers.get('X-Detection-Rate');

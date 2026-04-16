@@ -40,7 +40,7 @@ export default function Decode() {
       formData.append('use_neural_steg', useNeuralSteg.toString());
       formData.append('use_noise_reduction', useNoiseReduction.toString());
 
-      const response = await fetch('http://localhost:5001/api/decrypt', {
+      const response = await fetch('/api/decrypt', {
         method: 'POST',
         body: formData
       });

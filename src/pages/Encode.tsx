@@ -41,7 +41,7 @@ export default function Encode() {
       formData.append('use_neural_steg', useNeuralSteg.toString());
       formData.append('use_adaptive', useAdaptive.toString());
 
-      const response = await fetch('http://localhost:5001/api/encrypt', {
+      const response = await fetch('/api/encrypt', {
         method: 'POST',
         body: formData
       });

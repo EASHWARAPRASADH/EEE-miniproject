@@ -40,7 +40,7 @@ interface AppContextType {
   simulateProcessing: (id: string, duration?: number) => Promise<void>;
 }
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = '/api';
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
