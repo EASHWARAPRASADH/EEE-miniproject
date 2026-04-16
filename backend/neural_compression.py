@@ -12,6 +12,7 @@ Architecture:
 
 import io
 import struct
+from typing import Tuple
 import numpy as np
 from PIL import Image
 
