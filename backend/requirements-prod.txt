@@ -13,3 +13,4 @@ piq
 pycryptodome
 matplotlib
 pandas
+psutil
